@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+
+/* GENERIC SETTINGS */
+* {
+    box-sizing: border-box;
+}
+
+/* Style the body control */
+body {
+    margin: 0;
+    background-color: #fafafa;
+    font-family: Calibri;
+}
+
+/* Setting to hide controls */
+.hidden {
+    display: none;
+}
+
+/* Setting to make controls transparent */
+.transparent {
+    opacity: 0;
+}
+
+
+
+/* PAGE HEADER SETTINGS */
+
+/* Style the header */
+.header {
+    background-color: #fafafa;
+    padding: 5px;
+    text-align: center;
+    font-family: Calibri;
+}
+
+/* Style the header text */
+.headerText {
+    font-size: x-large;
+    font-weight: bold;
+    color: #1b6698;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #fafafa;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #1b6698;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    margin: 0.2px;
+    border-left: 1px solid #bedef4;
+    border-right: 1px solid #bedef4;
+    border-top: 1px solid #bedef4;
+}
+
+/* Style the active topnav links */
+.topnav a.active {
+    background-color: #3498db;
+    color: #f2f2f2;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #1f74ad;
+    color: #f2f2f2;
+}
