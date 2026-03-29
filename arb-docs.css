@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+:root {
+    --font-sans: Calibri, Arial, sans-serif;
+    --color-bg: #fafafa;
+    --color-primary: #1b6698;
+    --color-primary-hover: #1f74ad;
+}
 
  /* GENERIC SETTINGS */
 
@@ -7,8 +13,8 @@ html, body {
     height: 100%;
     padding: 0px;
     margin: 0px;
-    background-color: #fafafa;
-    font-family: Calibri;
+    background-color: var(--color-bg);
+    font-family: var(--font-sans);
 }
 
 
@@ -29,7 +35,7 @@ h1, h2, h3 {
     font-weight: 800;
     margin-top: 32px;
     margin-bottom: 4px;
-    color: #1b6698;
+    color: var(--color-primary);
 
 }
 
@@ -66,11 +72,11 @@ li {
 }
 
 .body-container.docs {
-    background-color: #fafafa;
+    background-color: var(--color-bg);
 }
 
 .body-container.contact {
-    background-color: #fafafa;
+    background-color: var(--color-bg);
     justify-content: start;
 }
 
@@ -95,7 +101,7 @@ li {
 .code {
     font-family: 'Courier New', Courier, monospace;
     color: darkorchid;
-    background-color: #fafafa;
+    background-color: var(--color-bg);
 }
 
 .contact {
@@ -118,18 +124,18 @@ li {
 .code-block {
     font-family: 'Courier New', Courier, monospace;
     font-size: 12pt;
-    background-color: #fafafa;
+    background-color: var(--color-bg);
     color: blueviolet;
     text-align: left;
     padding: 4px;
 }
 
 .text-link {
-    color: #1b6698;
+    color: var(--color-primary);
     text-decoration: none;
 }
 
 .text-link:hover {
-    color: #1f74ad;
+    color: var(--color-primary-hover);
     text-decoration: underline;
 }

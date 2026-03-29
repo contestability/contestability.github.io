@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+:root {
+    --font-sans: Calibri, Arial, sans-serif;
+    --color-bg: #fafafa;
+    --color-primary: #1b6698;
+    --color-primary-hover: #1f74ad;
+    --color-accent: #3498db;
+    --color-light: #f2f2f2;
+    --color-border: #bedef4;
+}
 
 /* GENERIC SETTINGS */
 * {
@@ -9,8 +18,8 @@
 /* Style the body control */
 body {
     margin: 0;
-    background-color: #fafafa;
-    font-family: Calibri;
+    background-color: var(--color-bg);
+    font-family: var(--font-sans);
 }
 
 /* Setting to hide controls */
@@ -29,47 +38,47 @@ body {
 
 /* Style the header */
 .header {
-    background-color: #fafafa;
+    background-color: var(--color-bg);
     padding: 5px;
     text-align: center;
-    font-family: Calibri;
+    font-family: var(--font-sans);
 }
 
 /* Style the header text */
 .headerText {
     font-size: x-large;
     font-weight: bold;
-    color: #1b6698;
+    color: var(--color-primary);
 }
 
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: #fafafa;
+    background-color: var(--color-bg);
 }
 
 /* Style the topnav links */
 .topnav a {
     float: left;
     display: block;
-    color: #1b6698;
+    color: var(--color-primary);
     text-align: center;
     padding: 5px 16px;
     text-decoration: none;
     margin: 0.2px;
-    border-left: 1px solid #bedef4;
-    border-right: 1px solid #bedef4;
-    border-top: 1px solid #bedef4;
+    border-left: 1px solid var(--color-border);
+    border-right: 1px solid var(--color-border);
+    border-top: 1px solid var(--color-border);
 }
 
 /* Style the active topnav links */
 .topnav a.active {
-    background-color: #3498db;
-    color: #f2f2f2;
+    background-color: var(--color-accent);
+    color: var(--color-light);
 }
 
 /* Change color on hover */
 .topnav a:hover {
-    background-color: #1f74ad;
-    color: #f2f2f2;
+    background-color: var(--color-primary-hover);
+    color: var(--color-light);
 }
