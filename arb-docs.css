@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 :root {
-    --font-sans: "Calibri", "Segoe UI", Arial, Helvetica, sans-serif;
+    --font-sans: Calibri, Arial, sans-serif;
     --color-bg: #fafafa;
     --color-primary: #1b6698;
     --color-primary-hover: #1f74ad;
